@@ -1,0 +1,10 @@
+<div class="topnav">
+    <div class="subject">
+        <p>Mon premier portofolio</p>
+    </div>
+    <div class="buttons">
+        <a [ngClass]="{'active': home}" (click)="Home()"><i class="fa fa-fw fa-home"></i>Accueil</a>
+        <a [ngClass]="{'active': projects}"  (click)="Projects()"><i class="fa fa-fw fa-suitcase"></i>Mes projets</a>
+        <a [ngClass]="{'active': contact}"  (click)="Contact()"><i class="fa fa-fw fa-envelope"></i>Contacts</a>
+    </div>
+</div>

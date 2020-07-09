@@ -1,0 +1,50 @@
+<div class="background-page">
+    <div class="top-page">
+        <div class="title-page">
+            <h1>{{ name }}</h1>
+            <h3>{{ subtitle }}</h3>
+        </div>
+    </div>
+    <div class="presentation-home">
+        <h2>{{ competences }}</h2>
+        <div class="border-style">
+            <p class="presentation">
+                {{ presentation }}
+            </p>
+            <ul class="language-list" *ngFor="let exp of languages">
+                <li>{{ exp }}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="experiences-home">
+        <h2>{{ experiences }}</h2>
+        <div class="border-style">
+            <p class="presentation">
+                {{ experience }}
+            </p>
+            <ul class="experiences-list">
+                <li>{{ internship }}</li>
+                    <p>{{ internshipDesc }}</p>
+                <li>{{ job }}</li>
+                    <p>{{ jobDesc }}</p>
+                    <ul class="jobTask">
+                        <li *ngFor="let task of jobTask">{{ task }}</li>
+                    </ul>
+            </ul>
+        </div>
+    </div>
+    <div class="personnality-home">
+        <h2>{{ personnality }}</h2>
+        <div class="border-style">
+            <p class="presentation">
+                {{ personnalityDesc }}
+            </p>
+            <ul class="language-list" *ngFor="let sport of sports">
+                <li>{{ sport }}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="botnav">
+        <p>Crée par moi-même</p>
+    </div>
+</div>
