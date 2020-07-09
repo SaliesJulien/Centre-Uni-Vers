@@ -17,22 +17,27 @@
             flex-grow: 1;
             .title-page {
                 background-color: 0 0 0;
-                background-image:url(../../assets/fond.jpg);
+                background-position-y: 50%;
+                background-image:url(../../assets/amboise-1.jpg);
                 display: flex;
                 justify-content: center;
                 flex-grow: 1;
                 flex-direction: column;
                 text-align: center;
                 h1 {
+                    color: white;
                     font-size: 60px;
                     font-weight: bold;
+                    text-shadow: black 0.1em 0.1em 0.2em
                 }
                 h3 {
+                    color: white;
                     display: flex;
                     flex-grow: 1;
                     justify-content: center;
                     margin-left: 25%;
                     margin-right: 25%;
+                    text-shadow: black 0.1em 0.1em 0.2em
                 }
             }
         }
@@ -43,7 +48,6 @@
             margin-left: 10%;
             flex-direction: column;
             .border-style {
-                border: 2px solid rgb(109, 97, 97);
                 padding-left: 10px;
                 padding-right: 10px;
                 border-radius: 10px;

@@ -1,12 +1,21 @@
 export const home = {
-    name: 'Julien Salies',
-    subtitle: 'Développeur informatique',
-    competences: 'Mes compètences',
-    presentation: "Passionné par l'informatique et les nouvelles technologies\
-        j'enrichis mes compètences en effectuant toutes sortes de projets différents\
-        ce qui m'as permis a ce jour d'avoir des compètences en :",
+    name: 'Bienvenue chez Elias bien-être',
+    subtitle: 'Centre spécialisé dans le bien-être',
+    competences: 'Présentation',
+    presentation: "Quam ob rem id primum videamus, si placet,\
+        quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos,\
+        ferre contra patriam arma illi cum Coriolano debuerunt?\
+        num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?\
+        Quam ob rem id primum videamus, si placet,\
+        quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos,\
+        ferre contra patriam arma illi cum Coriolano debuerunt?\
+        num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?\
+        Quam ob rem id primum videamus, si placet,\
+        quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos,\
+        ferre contra patriam arma illi cum Coriolano debuerunt?\
+        num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?",
     experiences: {
-        title: 'Mon expérience',
+        title: 'Spa',
         experience: "Au cours de ces deux dernières années j'ai eu la chance d'effectuer plusieurs expériences\
             qui m'auront permis d'en découvrir plus sur les différents aspects du monde professionel :",
         internship: 'Stage : développeur full stack',
@@ -27,7 +36,7 @@ export const home = {
         },
     },
     myself: {
-        title: "Mes centres d'intêrets",
+        title: "massages",
         desc: "Je suis passionné par les nouvelles technologies depuis que je suis petit\
             et je voulais faire de ma passion mon métier. Je trouve fascinant toutes les choses que l'ont peut\
             faire grâce à l'informatique.\
@@ -44,37 +53,35 @@ export const home = {
 
 export const projects = {
     rpg: {
-        title: 'RPG',
-        desc: 'Le but de ce projet était de recréer un jeu RPG',
+        title: 'Dr. Jean Peups',
+        desc: "Breve presentation du docteur...."
     },
     imageComp: {
-        title: 'ImageCompressor',
-        desc: "Le but de ce projet était de créer un algorithme qui permettait de réduire la taille d'une image",
+        title: 'Dr. Larry Bambelle',
+        desc: "Breve presentation du docteur....",
     },
     trade: {
-        title: 'Trade',
-        desc: "Le but de ce projet était d'analyser des données météorologiques puis\
-            en déduires les différents variations de températures",
+        title: 'Dr. Floran Elias',
+        desc: "Breve presentation du docteur...."
     },
     ftp: {
-        title: 'FTP',
-        desc: 'Le but de ce projet était de recréer un server FTP en C',
+        title: 'Dr. Labé Tonnierre',
+        desc: "Breve presentation du docteur...."
     },
     arcade: {
-        title: 'Arcade',
-        desc: "Le but de ce projet était de recréer une bonne d'arcade virtuelle\
-            il fallait donc gérer plusieurs jeux et plusieurs librairies graphiques",
+        title: 'Dr. Jeanpeux plu',
+        desc: "Breve presentation du docteur....",
     },
     jam: {
-        title: 'Epitech Jam',
-        desc: "Création d'un jeu vidéo en 48h avec un thème imposé qui était le street-art",
+        title: 'Dr. tchiki ta',
+        desc: "Breve presentation du docteur....",
     },
     source: 'Code source',
 };
 
 export const contact = {
-    title: 'Contactez-moi !',
-    desc: "Je suis actuellement à la recherche d'un stage à temp partiel si mon profil vous intéresse",
+    title: 'Contactez-nous !',
+    desc: "Vous souhaitez avoir des informations supplémentaire ?",
 };
 
 export const language = {
