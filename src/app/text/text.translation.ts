@@ -1,5 +1,12 @@
 export const home = {
-    name: 'Bienvenue chez Elias bien-être',
+    //Police comme Coca-Cola
+    //Quand on click sur le profil d'un Dr envoyer vers une autre page
+    //Photo qui défilent en acceuil
+    //Top bar à mettre sur le côté
+    //location sale par les thérapeutes et explication des services aux clients
+    //Horaires d'ouvertures (infos pratiques)
+    //Onglets galeries avec photos et vidéos
+    name: 'Centre Uni vers le Bien-Etre',
     subtitle: 'Centre spécialisé dans le bien-être',
     competences: 'Présentation',
     presentation: "Quam ob rem id primum videamus, si placet,\
@@ -53,7 +60,7 @@ export const home = {
 
 export const projects = {
     rpg: {
-        title: 'Dr. Jean Peups',
+        title: 'Masseuse Elisabeth',
         desc: "Breve presentation du docteur...."
     },
     imageComp: {
@@ -61,7 +68,7 @@ export const projects = {
         desc: "Breve presentation du docteur....",
     },
     trade: {
-        title: 'Dr. Floran Elias',
+        title: 'Dr. Florian Elias',
         desc: "Breve presentation du docteur...."
     },
     ftp: {

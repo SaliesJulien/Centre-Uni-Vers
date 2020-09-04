@@ -12,11 +12,21 @@
         justify-content: space-between;
         overflow: hidden;
         background-color: #333;
-        .buttons {
+        .buttons-pos {
             display: flex;
-            margin-right: 15%;
+            align-items: center;
+            flex-grow: 0.2;
+            .buttons {
+                display: flex;
+                margin-right: 15%;
+                a {
+                    display: flex;
+                }
+            }
         }
         .subject {
+            display: flex;
+            flex-grow: 1;
             p {
                 margin-left: 20px;
                 color: white;

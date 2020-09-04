@@ -1,10 +1,12 @@
 <div class="topnav">
     <div class="subject">
-        <p>Mon premier portofolio</p>
+        <p>Centre bien-être</p>
     </div>
-    <div class="buttons">
-        <a [ngClass]="{'active': home}" (click)="Home()"><i class="fa fa-fw fa-home"></i>Accueil</a>
-        <a [ngClass]="{'active': therapeutes}"  (click)="Projects()"><i class="fa fa-fw fa-user-md"></i>Nos thérapeutes</a>
-        <a [ngClass]="{'active': contact}"  (click)="Contact()"><i class="fa fa-fw fa-envelope"></i>Contacts</a>
+    <div class="buttons-pos">
+        <div class="buttons">
+            <a [ngClass]="{'active': home}" (click)="Home()"><i class="fa fa-fw fa-home"></i>Accueil</a>
+            <a [ngClass]="{'active': therapeutes}"  (click)="Projects()"><i class="fa fa-fw fa-user-md"></i>Nos thérapeutes</a>
+            <a [ngClass]="{'active': contact}"  (click)="Contact()"><i class="fa fa-fw fa-envelope"></i>Contacts</a>
+        </div>
     </div>
 </div>
