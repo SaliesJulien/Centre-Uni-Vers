@@ -3,10 +3,10 @@ import { projects } from '../text/text.translation';
 
 @Component({
   selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.scss']
+  templateUrl: './doctors.component.html',
+  styleUrls: ['./doctors.component.scss']
 })
-export class ProjectsComponent implements OnInit {
+export class DoctorsComponent implements OnInit {
 
   constructor() { }
 
