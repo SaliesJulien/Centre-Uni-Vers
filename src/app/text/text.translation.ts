@@ -6,23 +6,13 @@ export const home = {
     //location sale par les thérapeutes et explication des services aux clients
     //Horaires d'ouvertures (infos pratiques)
     //Onglets galeries avec photos et vidéos
-    name: 'Centre Uni vers le Bien-Etre',
+    name: 'Bienvenue au centre Uni vers le Bien-Etre',
     subtitle: 'Centre spécialisé dans le bien-être',
     competences: 'UN TEMPS POUR SOI, UN TEMPS EN SOI',
-    presentation: "Quam ob rem id primum videamus, si placet,\
-        quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos,\
-        ferre contra patriam arma illi cum Coriolano debuerunt?\
-        num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?\
-        Quam ob rem id primum videamus, si placet,\
-        quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos,\
-        ferre contra patriam arma illi cum Coriolano debuerunt?\
-        num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?\
-        Quam ob rem id primum videamus, si placet,\
-        quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos,\
-        ferre contra patriam arma illi cum Coriolano debuerunt?\
-        num Vecellinum amici regnum adpetentem, num Maelium debuerunt iuvare?",
+    presentation: "Faites une pose dans votre quotidien et laissez vous entrer\
+    dans une parenthèse de douceur et de lâcher prise",
     experiences: {
-        title: 'Spa',
+        title: 'A propos du centre',
         experience: "Au cours de ces deux dernières années j'ai eu la chance d'effectuer plusieurs expériences\
             qui m'auront permis d'en découvrir plus sur les différents aspects du monde professionel :",
         internship: 'Stage : développeur full stack',

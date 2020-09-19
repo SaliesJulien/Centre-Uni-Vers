@@ -71,7 +71,7 @@ export class HomeComponent implements OnInit {
     opacity: 0,
     duration: 1000,
     easing: "easeOutExpo",
-    delay: 1000
+    delay: 2000
   });
 
 
