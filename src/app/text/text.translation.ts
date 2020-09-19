@@ -8,7 +8,7 @@ export const home = {
     //Onglets galeries avec photos et vidéos
     name: 'Centre Uni vers le Bien-Etre',
     subtitle: 'Centre spécialisé dans le bien-être',
-    competences: 'Présentation',
+    competences: 'UN TEMPS POUR SOI, UN TEMPS EN SOI',
     presentation: "Quam ob rem id primum videamus, si placet,\
         quatenus amor in amicitia progredi debeat. Numne, si Coriolanus habuit amicos,\
         ferre contra patriam arma illi cum Coriolano debuerunt?\
