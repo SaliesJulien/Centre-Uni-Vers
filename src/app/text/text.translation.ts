@@ -50,30 +50,30 @@ export const home = {
 
 export const projects = {
     rpg: {
-        title: 'Masseuse Elisabeth',
-        desc: "Breve presentation du docteur...."
+        title: 'Isabelle Fare',
+        desc: "Masseuse bien-être"
     },
     imageComp: {
-        title: 'Dr. Larry Bambelle',
-        desc: "Breve presentation du docteur....",
+        title: 'Jean-Christophe Avargues',
+        desc: "Accompagnateur bien-être",
     },
     trade: {
-        title: 'Dr. Florian Elias',
-        desc: "Breve presentation du docteur...."
+        title: 'Florence Gambus',
+        desc: "Naturopathe"
     },
     ftp: {
-        title: 'Dr. Labé Tonnierre',
-        desc: "Breve presentation du docteur...."
+        title: 'Caroline Gazeau',
+        desc: "Reflexologue plantaire"
     },
     arcade: {
-        title: 'Dr. Jeanpeux plu',
-        desc: "Breve presentation du docteur....",
+        title: 'Imma Gutierrez Martinez',
+        desc: "Médecine chinoise",
     },
     jam: {
-        title: 'Dr. tchiki ta',
-        desc: "Breve presentation du docteur....",
+        title: 'Richard Pusczewicz',
+        desc: "Osteopathe",
     },
-    source: 'Code source',
+    source: 'Lien vers le site',
 };
 
 export const contact = {
