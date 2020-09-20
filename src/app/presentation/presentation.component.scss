@@ -10,29 +10,29 @@
         overflow: auto;
         flex-grow: 1;
     }
-    .background-contact {
+    .presentation-background {
         display: flex;
-        flex-direction: column;
         flex-grow: 1;
-        .contact-header {
+        flex-direction: column;
+        .presentation {
             display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            height: 20%;
-        }
-        .contact {
-            margin-top: 60px;
             flex-grow: 1;
-            height: auto;
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            img {
+            .text-presentation {
+                display: flex;
+                flex-grow: 1;
+                flex-direction: column;
+                height: 10%;
                 margin-top: 50px;
-                height: 100px;
-                width: 120px;
+                h3 {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 40px;
+                    font-weight: bold;
+                }
+                p {
+                    display: flex;
+                    justify-content: center;
+                }
             }
         }
         .botnav {

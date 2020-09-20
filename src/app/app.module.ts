@@ -7,6 +7,9 @@ import { ContactComponent } from './contact/contact.component';
 import { DoctorsComponent } from './doctors/doctors.component';
 import { HomeComponent } from './home/home.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { ConferencesComponent } from './conferences/conferences.component';
+import { PresentationComponent } from './presentation/presentation.component';
+import { LocationComponent } from './location/location.component';
 
 
 @NgModule({
@@ -15,7 +18,10 @@ import { TopBarComponent } from './top-bar/top-bar.component';
       TopBarComponent,
       HomeComponent,
       DoctorsComponent,
-      ContactComponent
+      ContactComponent,
+      ConferencesComponent,
+      PresentationComponent,
+      LocationComponent
    ],
    imports: [
       BrowserModule,

@@ -10,9 +10,6 @@ export class AppComponent implements OnInit {
     constructor(private router: Router) {}
 
     ngOnInit(): void {
-        this.router.navigate(['/home']);
-    }
-    pressButton() {
-        console.log("test");
+        this.router.navigate(['/accueil']);
     }
 }

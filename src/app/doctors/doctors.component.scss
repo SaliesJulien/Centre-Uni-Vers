@@ -18,9 +18,14 @@
             margin-top: 40px;
             display: flex;
             justify-content: center;
+            flex-direction: column;
             .text-presentation {
-                width: 40%;
+                display: flex;
+                flex-grow: 1;
+                width: 100%;
+                justify-content: center;
                 p {
+                    width: 30%;
                     font-size: large;
                     text-align: center;
                 }
@@ -71,6 +76,9 @@
             justify-content: center;
             background-color: #333;
             p {
+                display: flex;
+                height: 100%;
+                align-items: center;
                 color: white;
             }
         }

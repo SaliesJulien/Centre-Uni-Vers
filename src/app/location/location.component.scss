@@ -10,30 +10,13 @@
         overflow: auto;
         flex-grow: 1;
     }
-    .background-contact {
+    .location-background {
         display: flex;
-        flex-direction: column;
         flex-grow: 1;
-        .contact-header {
+        flex-direction: column;
+        .location {
             display: flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align: center;
-            height: 20%;
-        }
-        .contact {
-            margin-top: 60px;
             flex-grow: 1;
-            height: auto;
-            align-items: center;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            img {
-                margin-top: 50px;
-                height: 100px;
-                width: 120px;
-            }
         }
         .botnav {
             margin-top: 70px;
