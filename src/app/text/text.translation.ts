@@ -49,29 +49,53 @@ export const home = {
 };
 
 export const projects = {
-    rpg: {
+    doctor1: {
         title: 'Isabelle Fare',
         desc: "Masseuse bien-être"
     },
-    imageComp: {
+    doctor2: {
         title: 'Jean-Christophe Avargues',
         desc: "Accompagnateur bien-être",
     },
-    trade: {
+    doctor3: {
         title: 'Florence Gambus',
         desc: "Naturopathe"
     },
-    ftp: {
+    doctor4: {
         title: 'Caroline Gazeau',
         desc: "Reflexologue plantaire"
     },
-    arcade: {
+    doctor5: {
         title: 'Imma Gutierrez Martinez',
         desc: "Médecine chinoise",
     },
-    jam: {
+    doctor6: {
         title: 'Richard Pusczewicz',
         desc: "Osteopathe",
+    },
+    doctor7: {
+        title: 'Brigitte Fayet',
+        desc: "Coach de vie",
+    },
+    doctor8: {
+        title: 'Patrick Leroy',
+        desc: "Hypnotherapeuthe",
+    },
+    doctor9: {
+        title: 'Mathilde Bousquet',
+        desc: "Dieteticienne Nutritionniste",
+    },
+    doctor10: {
+        title: 'Veronique Elias',
+        desc: "Conseillere fleurs de bach",
+    },
+    doctor11: {
+        title: 'Laura Casenove',
+        desc: "Coiffeuse",
+    },
+    doctor12: {
+        title: 'Flora Aliji',
+        desc: "Estheticienne",
     },
     source: 'Lien vers le site',
 };
