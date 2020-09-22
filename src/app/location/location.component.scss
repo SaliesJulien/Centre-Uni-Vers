@@ -14,9 +14,18 @@
         display: flex;
         flex-grow: 1;
         flex-direction: column;
-        .location {
+        .location-list {
             display: flex;
+            justify-content: center;
+            align-items: center;
             flex-grow: 1;
+            .location {
+                display: flex;
+                p {
+                    font-size: 40px;
+                    font-weight: bold;
+                }
+            }
         }
         .botnav {
             margin-top: 70px;
