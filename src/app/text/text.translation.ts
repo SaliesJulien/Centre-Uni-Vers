@@ -13,11 +13,13 @@ export const home = {
     dans une parenthèse de douceur et de lâcher prise",
     experiences: {
         title: 'A propos du centre',
-        experience: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. \
-            Aenean consequat, elit vel ornare sagittis, est lectus volutpat nisi,\
-            nec faucibus lorem risus vitae enim. Sed pretium magna sit amet sem dapibus,\
-            laoreet cursus libero tincidunt. Proin laoreet eget elit a feugiat.\
-            Vivamus aliquet in risus sed ultrices. Donec aliquam viverra erat.",
+        about: {
+            experience: "Venez découvrir un véritable lieu de ressource et de convivialité où notre équipe se fera un plaisir de prendre soin de vous.",
+            experience2: "Nos thérapeutes, praticiens, professionnels du Sport ou\
+            de la Beauté vous accueillent toute l'année pour vous proposer des soins\
+            variés, des cours et des ateliers dans une approche \
+            holistique et bienveillante.",
+        },
         internship: 'Stage : développeur full stack',
         internshipDesc: "Lors de mon stage chez BOTdesign j'ai pu être plongé dans le quotidien d'un développeur full-stack.\
             J'ai, pendant 4 mois, aidé à la conception d'une application web qui répond à plusieurs\

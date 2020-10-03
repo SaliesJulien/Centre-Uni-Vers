@@ -27,7 +27,9 @@ export class HomeComponent implements OnInit {
     language.cpp,
     language.pyhton];
   experiences: string = home.experiences.title;
-  experience: string = home.experiences.experience;
+  about = [home.experiences.about.experience,
+    home.experiences.about.experience2
+  ];
   internship: string = home.experiences.internship;
   internshipDesc: string = home.experiences.internshipDesc;
   job: string = home.experiences.job;

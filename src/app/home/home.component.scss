@@ -73,23 +73,16 @@
             width: 50%;
             margin: 100px 0 0 40%;
             flex-direction: column;
+            h2 {
+                font-weight: bold;
+            }
             .border-style {
                 padding-left: 10px;
                 padding-right: 10px;
                 border-radius: 10px;
                 .presentation {
+                    margin-left: 30px;
                     font-size: 20px;
-                }
-                .experiences-list {
-                    li {
-                        font-size: 20px;
-                        font-weight: bold;
-                    }
-                    .jobTask {
-                        li {
-                            font-size: 15px;
-                        }
-                    }
                 }
             }
         }

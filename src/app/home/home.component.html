@@ -17,10 +17,10 @@
     </div>
     <div class="experiences-home">
         <h2>{{ experiences }}</h2>
-        <div class="border-style">
-            <p class="presentation">
-                {{ experience }}
-            </p>
+        <div class="border-style" *ngFor="let exp of about">
+            <li class="presentation">
+                {{ exp }}
+            </li>
         </div>
     </div>
     <div class="botnav">
