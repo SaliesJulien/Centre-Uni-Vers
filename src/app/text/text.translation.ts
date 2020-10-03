@@ -102,7 +102,7 @@ export const projects = {
         title: 'Flora Aliji',
         desc: "Estheticienne",
     },
-    source: 'Lien vers le site',
+    source: 'En savoir plus',
 };
 
 export const contact = {
