@@ -55,15 +55,17 @@ export const home = {
 
 export const projects = {
     doctor1: {
-        title: 'Isabelle Fare',
+        title: 'Isabelle Farré',
         desc: "Masseuse bien-être"
     },
     doctor2: {
         title: 'Jean-Christophe Avargues',
-        desc: "Accompagnateur bien-être",
+        desc: "Luxopuncture - \
+        Biorésonance - \
+        Biodécodage",
     },
     doctor3: {
-        title: 'Florence Gambus',
+        title: 'Florence Cambus',
         desc: "Naturopathe"
     },
     doctor4: {
@@ -84,11 +86,13 @@ export const projects = {
     },
     doctor8: {
         title: 'Patrick Leroy',
-        desc: "Hypnotherapeuthe",
+        desc: "Hypnotherapeute - \
+        Energeticien - \
+        Coach",
     },
     doctor9: {
         title: 'Mathilde Bousquet',
-        desc: "Dieteticienne Nutritionniste",
+        desc: "Dieteticienne - Nutritionniste",
     },
     doctor10: {
         title: 'Veronique Elias',
