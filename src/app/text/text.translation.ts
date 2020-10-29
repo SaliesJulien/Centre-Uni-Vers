@@ -56,7 +56,7 @@ export const home = {
 export const projects = {
     doctor1: {
         title: 'Isabelle Farré',
-        desc: "Masseuse bien-être"
+        desc: "Archangélique et Marjolaine"
     },
     doctor2: {
         title: 'Jean-Christophe Avargues',
@@ -66,7 +66,9 @@ export const projects = {
     },
     doctor3: {
         title: 'Florence Cambus',
-        desc: "Naturopathe"
+        desc: "Réflexologie plantaire - \
+        Aromathérapie - Phytothérapie - \
+        Nutrithérapie"
     },
     doctor4: {
         title: 'Caroline Gazeau',
@@ -74,37 +76,35 @@ export const projects = {
     },
     doctor5: {
         title: 'Imma Gutierrez Martinez',
-        desc: "Médecine chinoise",
+        desc: "MEDECINE CHINOISE",
     },
     doctor6: {
         title: 'Richard Pusczewicz',
-        desc: "Osteopathe",
+        desc: "OSTEOPATHE",
     },
     doctor7: {
         title: 'Brigitte Fayet',
-        desc: "Coach de vie",
+        desc: "COACH DE VIE",
     },
     doctor8: {
         title: 'Patrick Leroy',
-        desc: "Hypnotherapeute - \
-        Energeticien - \
-        Coach",
+        desc: "HYPNOTHERAPEUTE - ENERGETICIEN - COACH",
     },
     doctor9: {
         title: 'Mathilde Bousquet',
-        desc: "Dieteticienne - Nutritionniste",
+        desc: "Diplômée d'état",
     },
     doctor10: {
         title: 'Veronique Elias',
-        desc: "Conseillere fleurs de bach",
+        desc: "CONSEILLERE FLEURS DE BACH",
     },
     doctor11: {
         title: 'Laura Casenove',
-        desc: "Coiffeuse",
+        desc: "COIFFEUSE",
     },
     doctor12: {
         title: 'Flora Aliji',
-        desc: "Estheticienne",
+        desc: "ESTHETICIENNE",
     },
     source: 'En savoir plus',
 };
