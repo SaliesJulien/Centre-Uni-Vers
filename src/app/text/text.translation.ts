@@ -109,11 +109,6 @@ export const projects = {
     source: 'En savoir plus',
 };
 
-export const contact = {
-    title: 'Contactez-nous !',
-    desc: "Vous souhaitez avoir des informations supplémentaire ?",
-};
-
 export const language = {
     asm: 'Assembleur',
     haskell: 'Haskell',

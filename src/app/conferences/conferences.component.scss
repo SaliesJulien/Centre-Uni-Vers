@@ -21,10 +21,8 @@
             flex-grow: 1;
             .conference {
                 display: flex;
-                p {
-                    font-size: 40px;
-                    font-weight: bold;
-                }
+                justify-content: center;
+                flex-grow: 1;
             }
         }
         .botnav {

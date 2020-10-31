@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import { contact } from '../text/text.translation';
+import { contact } from '../text/contact';
 
 @Component({
   selector: 'app-contact',
@@ -13,6 +13,10 @@ export class ContactComponent implements OnInit {
 
   description: string = contact.desc;
   title: string = contact.title;
+  byMail: String = contact.byMail;
+  byPhone: String = contact.byPhone;
+  phone: String = contact.phoneNumber;
+  mail: String = contact.email;
   ngOnInit(): void {
   }
 

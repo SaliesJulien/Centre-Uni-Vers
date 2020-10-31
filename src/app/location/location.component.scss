@@ -14,17 +14,65 @@
         display: flex;
         flex-grow: 1;
         flex-direction: column;
-        .location-list {
+        .location-presentation {
+            margin-top: 70px;
             display: flex;
             justify-content: center;
-            align-items: center;
-            flex-grow: 1;
+            flex-direction: column;
+            .text-title {
+                h2 {
+                    justify-content: center;
+                    display: flex;
+                    font-weight: bold;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .location-list {
+            display: flex;
+            flex-direction: column;
             .location {
                 display: flex;
-                p {
-                    font-size: 40px;
-                    font-weight: bold;
+                justify-content: center;
+                text-align: center;
+                margin-top: 100px;
+                margin-left: 50px;
+                margin-right: 50px;
+                .border-style {
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 10px;
+                    width: 50%;
+                    height: 100%;
+                    background: rgba(0, 128, 0, 0.3);
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    border-radius: 10px;
+                    padding: 10px;
+                    .desc {
+                        display: flex;
+                        flex-direction: column;
+                        p {
+                            padding-top: 20px;
+                            border-top: solid;
+                            font-style: italic;
+                            font-size: 20px;
+                        }
+                        h2 {
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .images {
+                        margin-top: 40px;
+                    }
                 }
+            }
+        }
+        .prices {
+            margin-top: 30px;
+            h4 {
+                font-weight: bold;
             }
         }
         .botnav {

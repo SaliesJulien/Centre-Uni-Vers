@@ -16,23 +16,64 @@
         flex-grow: 1;
         .contact-header {
             display: flex;
+            margin-top: 40px;
             justify-content: center;
             flex-direction: column;
             text-align: center;
             height: 20%;
+            h1 {
+                font-weight: bold;
+            }
         }
         .contact {
-            margin-top: 60px;
+            margin-top: 20px;
             flex-grow: 1;
             height: auto;
             align-items: center;
             display: flex;
             flex-direction: column;
-            justify-content: center;
             img {
-                margin-top: 50px;
+                margin-top: 20px;
                 height: 100px;
                 width: 120px;
+            }
+            .follow {
+                margin-top: 50px;
+            }
+        }
+        .adress {
+            align-items: center;
+            margin-top: 80px;
+            margin-bottom: 80px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            h1 {
+                font-weight: bold;
+            }
+            .position {
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                height: 100%;
+                margin: 50px 50px 0 50px;
+                .infos {
+                    .fromPerpi {
+                        height: 105%;
+                        width: 100%;
+                        margin-right: 10px;
+                        border: solid;
+                        border-radius: 10px;
+        
+                    }
+                    .fromPrades {
+                        margin-left: 10px;
+                        height: 105%;
+                        width: 100%;
+                        border: solid;
+                        border-radius: 10px;
+                    }
+                }
             }
         }
         .botnav {
