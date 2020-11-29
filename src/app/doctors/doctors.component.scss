@@ -62,12 +62,13 @@
                     border-radius: 10px;
                     padding: 10px;
                     .picture {
-                        width: 30%;
                         display: flex;
                         align-items: center;
                         img {
+                          border-radius: 50%;
                             flex-grow: 1;
-                            width: 30%;
+                            width: 120px;
+                            height: 120px;
                         }
                     }
                     .desc {

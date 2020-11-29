@@ -46,8 +46,10 @@
                 justify-content: center;
                 img {
                     margin: 5px;
-                    height: 100%;
-                    width: 30%;
+                }
+                .last-image {
+                  height: 100%;
+                  width: 40%;
                 }
             }
         }
