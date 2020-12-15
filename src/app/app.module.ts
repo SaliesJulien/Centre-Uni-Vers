@@ -10,6 +10,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { ConferencesComponent } from './conferences/conferences.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { LocationComponent } from './location/location.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { LocationComponent } from './location/location.component';
       BrowserModule,
       AppRoutingModule,
       NgbModule,
+      BrowserAnimationsModule,
    ],
    providers: [],
    bootstrap: [
