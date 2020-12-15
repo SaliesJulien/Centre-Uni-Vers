@@ -11,6 +11,7 @@ import { ConferencesComponent } from './conferences/conferences.component';
 import { PresentationComponent } from './presentation/presentation.component';
 import { LocationComponent } from './location/location.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatCarouselModule } from '@ngmodule/material-carousel';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
       AppRoutingModule,
       NgbModule,
       BrowserAnimationsModule,
+      MatCarouselModule.forRoot(),
    ],
    providers: [],
    bootstrap: [
