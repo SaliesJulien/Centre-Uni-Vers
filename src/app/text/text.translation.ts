@@ -1,120 +1,81 @@
 export const home = {
-    //Police comme Coca-Cola
-    //Quand on click sur le profil d'un Dr envoyer vers une autre page
-    //Photo qui défilent en acceuil
-    //Top bar à mettre sur le côté
-    //location sale par les thérapeutes et explication des services aux clients
-    //Horaires d'ouvertures (infos pratiques)
-    //Onglets galeries avec photos et vidéos
+    // Police comme Coca-Cola
+    // Quand on click sur le profil d'un Dr envoyer vers une autre page
+    // Photo qui défilent en acceuil
+    // Top bar à mettre sur le côté
+    // location sale par les thérapeutes et explication des services aux clients
+    // Horaires d'ouvertures (infos pratiques)
+    // Onglets galeries avec photos et vidéos
     name: 'Bienvenue au centre Uni vers le Bien-Etre',
     subtitle: 'Centre spécialisé dans le bien-être',
     competences: 'UN TEMPS POUR SOI, UN TEMPS EN SOI',
-    presentation: "Faites une pose dans votre quotidien et laissez vous entrer\
-    dans une parenthèse de douceur et de lâcher prise",
-    experiences: {
+    presentation: 'Faites une pose dans votre quotidien et laissez vous entrer\
+    dans une parenthèse de douceur et de lâcher prise',
+    presText: {
         title: 'A propos du centre',
         about: {
-            experience: "Venez découvrir un véritable lieu de ressource et de convivialité où notre équipe se fera un plaisir de prendre soin de vous.",
-            experience2: "Nos thérapeutes, praticiens, professionnels du Sport ou\
-            de la Beauté vous accueillent toute l'année pour vous proposer des soins\
-            variés, des cours et des ateliers dans une approche \
-            holistique et bienveillante.",
-        },
-        internship: 'Stage : développeur full stack',
-        internshipDesc: "Lors de mon stage chez BOTdesign j'ai pu être plongé dans le quotidien d'un développeur full-stack.\
-            J'ai, pendant 4 mois, aidé à la conception d'une application web qui répond à plusieurs\
-            problématiques visant à faciliter et fluidifier la transmition d'informations médicale dans les centres médicaux ou les hopitaux\
-            afin de faire gagner du temps aux soignants.",
-        job: "Job d'été : Auxiliaire Bancaire",
-        jobDesc: "Travail d'été dans lequel j'étais chargé de gérer l’accueil d'une banque.\
-            Au cours de ces 2 mois j'ai dû gérer :",
-        jobTask: {
-            phone: "Les appels téléphoniques",
-            rdv: "Les rendez-vous des collaborateurs",
-            virements: "Les virements clients",
-            money: "Le dépôt / retrait de la monnaie client",
-            moneyInc: "Les commandes de monnaie des entreprises",
-            chest: "Le coffre-fort",
-        },
-    },
-    myself: {
-        title: "massages",
-        desc: "Je suis passionné par les nouvelles technologies depuis que je suis petit\
-            et je voulais faire de ma passion mon métier. Je trouve fascinant toutes les choses que l'ont peut\
-            faire grâce à l'informatique.\
-            De plus j'ai toujours adoré le sport et j'essaye d'en faire le plus possible, je pratique différents sports tel que :",
-        Sports: {
-            canyoning: "Canyoning",
-            climb: "Escalade",
-            skate: 'Skate',
-            vtt: "VTT",
-            alpinisme: "Alpinisme",
+            about1: 'Venez découvrir un véritable lieu de ressource et de convivialité où\
+                    notre équipe se fera un plaisir de prendre soin de vous.',
+            about2: 'Nos thérapeutes, praticiens, professionnels du Sport ou\
+                    de la Beauté vous accueillent toute l\'année pour vous proposer des soins\
+                    variés, des cours et des ateliers dans une approche \
+                    holistique et bienveillante.',
         },
     },
 };
 
-export const projects = {
+export const doctors = {
     doctor1: {
         title: 'Isabelle Farré',
-        desc: "Archangélique et Marjolaine"
+        desc: 'Archangélique et Marjolaine'
     },
     doctor2: {
         title: 'Jean-Christophe Avargues',
-        desc: "Luxopuncture - \
+        desc: 'Luxopuncture - \
         Biorésonance - \
-        Biodécodage",
+        Biodécodage',
     },
     doctor3: {
         title: 'Florence Cambus',
-        desc: "Réflexologie plantaire - \
+        desc: 'Réflexologie plantaire - \
         Aromathérapie - Phytothérapie - \
-        Nutrithérapie"
+        Nutrithérapie'
     },
     doctor4: {
         title: 'Caroline Gazeau',
-        desc: "Reflexologue plantaire"
+        desc: 'Reflexologue plantaire'
     },
     doctor5: {
         title: 'Imma Gutierrez Martinez',
-        desc: "MEDECINE CHINOISE",
+        desc: 'MEDECINE CHINOISE',
     },
     doctor6: {
         title: 'Richard Pusczewicz',
-        desc: "OSTEOPATHE",
+        desc: 'OSTEOPATHE',
     },
     doctor7: {
         title: 'Brigitte Fayet',
-        desc: "COACH DE VIE",
+        desc: 'COACH DE VIE',
     },
     doctor8: {
         title: 'Patrick Leroy',
-        desc: "HYPNOTHERAPEUTE - ENERGETICIEN - COACH",
+        desc: 'HYPNOTHERAPEUTE - ENERGETICIEN - COACH',
     },
     doctor9: {
         title: 'Mathilde Bousquet',
-        desc: "Diplômée d'état",
+        desc: 'Diplômée d\'état',
     },
     doctor10: {
         title: 'Veronique Elias',
-        desc: "CONSEILLERE FLEURS DE BACH",
+        desc: 'CONSEILLERE FLEURS DE BACH',
     },
     doctor11: {
         title: 'Laura Casenove',
-        desc: "COIFFEUSE",
+        desc: 'COIFFEUSE',
     },
     doctor12: {
         title: 'Flora Aliji',
-        desc: "ESTHETICIENNE",
+        desc: 'ESTHETICIENNE',
     },
     source: 'En savoir plus',
-};
-
-export const language = {
-    asm: 'Assembleur',
-    haskell: 'Haskell',
-    c: "C",
-    cpp: 'C++',
-    pyhton: 'Python',
-    angular: 'Angular',
-    web: 'HTML/CSS',
 };

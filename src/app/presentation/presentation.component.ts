@@ -8,8 +8,8 @@ import { presentation } from '../text/presentation';
 })
 export class PresentationComponent implements OnInit {
 
-    title: string = presentation.title
-    description: string = presentation.description
+    title: string = presentation.title;
+    description: string = presentation.description;
     constructor() { }
 
     ngOnInit(): void {

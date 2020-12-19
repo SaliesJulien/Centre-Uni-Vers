@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { projects } from '../text/text.translation';
+import { doctors } from '../text/text.translation';
 
 @Component({
   selector: 'app-projects',
@@ -10,38 +10,32 @@ export class DoctorsComponent implements OnInit {
 
   constructor() { }
 
-  rpgTitle: string = projects.doctor1.title;
-  rpgDesc: string = projects.doctor1.desc;
+  doctor1Name: string = doctors.doctor1.title;
+  doctor1Desc: string = doctors.doctor1.desc;
+  doctor2Name: string = doctors.doctor2.title;
+  doctor2Desc: string = doctors.doctor2.desc;
+  doctor3Name: string = doctors.doctor3.title;
+  doctor3Desc: string = doctors.doctor3.desc;
+  doctor4Name: string = doctors.doctor4.title;
+  doctor4Desc: string = doctors.doctor4.desc;
+  doctor5Name: string = doctors.doctor5.title;
+  doctor5Desc: string = doctors.doctor5.desc;
+  doctor6Name: string = doctors.doctor6.title;
+  doctor6Desc: string = doctors.doctor6.desc;
+  doctor7Name: string = doctors.doctor7.title;
+  doctor7Desc: string = doctors.doctor7.desc;
+  doctor8Name: string = doctors.doctor8.title;
+  doctor8Desc: string = doctors.doctor8.desc;
+  doctor9Name: string = doctors.doctor9.title;
+  doctor9Desc: string = doctors.doctor9.desc;
+  doctor10Name: string = doctors.doctor10.title;
+  doctor10Desc: string = doctors.doctor10.desc;
+  doctor11Name: string = doctors.doctor11.title;
+  doctor11Desc: string = doctors.doctor11.desc;
+  doctor12Name: string = doctors.doctor12.title;
+  doctor12Desc: string = doctors.doctor12.desc;
 
-  imageCompTitle: string = projects.doctor2.title;
-  imageCompDesc: string = projects.doctor2.desc;
-
-  ftpTitle: string = projects.doctor3.title;
-  ftpDesc: string = projects.doctor3.desc;
-
-  tradeTitle: string = projects.doctor4.title;
-  tradeDesc: string = projects.doctor4.desc;
-
-  arcadeTitle: string = projects.doctor5.title;
-  arcadeDesc: string = projects.doctor5.desc;
-
-  jamTitle: string = projects.doctor6.title;
-  jamDesc: string = projects.doctor6.desc;
-
-  doctor7Name: string = projects.doctor7.title;
-  doctor7Desc: string = projects.doctor7.desc;
-  doctor8Name: string = projects.doctor8.title;
-  doctor8Desc: string = projects.doctor8.desc;
-  doctor9Name: string = projects.doctor9.title;
-  doctor9Desc: string = projects.doctor9.desc;
-  doctor10Name: string = projects.doctor10.title;
-  doctor10Desc: string = projects.doctor10.desc;
-  doctor11Name: string = projects.doctor11.title;
-  doctor11Desc: string = projects.doctor11.desc;
-  doctor12Name: string = projects.doctor12.title;
-  doctor12Desc: string = projects.doctor12.desc;
-
-  source: string = projects.source;
+  source: string = doctors.source;
   ngOnInit(): void {
   }
 
