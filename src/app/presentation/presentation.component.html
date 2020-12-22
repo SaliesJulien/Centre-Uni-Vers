@@ -1,27 +1,52 @@
 <div class="presentation-background">
-    <div class="presentation">
-        <div class="text-presentation">
-            <h3>{{ title }}</h3>
-            <p>{{ description}}</p>
-        </div>
-    </div>
+  <div class="presentation">
+      <div class="text-presentation">
+          <h3>{{ title }}</h3>
+          <p>{{ description}}</p>
+      </div>
+  </div>
+  <!--
     <div class="pictures">
-        <div class="presentation-images">
-          <img src= "../../assets/pres/IMG_1865.JPG">
-          <img src= "../../assets/pres/IMG_1866.JPG">
-        </div>
-        <div class="presentation-images">
-          <img src= "../../assets/pres/IMG_1861.JPG">
-        </div>
-        <div class="presentation-images">
-          <img src= "../../assets/pres/IMG_1868.JPG">
-          <img src= "../../assets/pres/IMG_1869.JPG">
-        </div>
-        <div class="presentation-images">
-            <img class="last-image" src= "../../assets/pres/IMG_1867.JPG">
-        </div>
-    </div>
-    <div class="botnav">
-        <p>Crée par Julien Salies</p>
-    </div>
+      <div class="presentation-images">
+        <img src= "../../assets/pres/IMG_1865.JPG">
+        <img src= "../../assets/pres/IMG_1866.JPG">
+      </div>
+      <div class="presentation-images">
+        <img src= "../../assets/pres/IMG_1861.JPG">
+      </div>
+      <div class="presentation-images">
+        <img src= "../../assets/pres/IMG_1868.JPG">
+        <img src= "../../assets/pres/IMG_1869.JPG">
+      </div>
+      <div class="presentation-images">
+          <img class="last-image" src= "../../assets/pres/IMG_1867.JPG">
+      </div>
+  </div>-->
+  <div class="presentation-carousel">
+    <mat-carousel
+      timings="250ms ease-in"
+      [autoplay]="true"
+      interval="3000"
+      color="primary"
+      maxWidth="auto"
+      proportion="70"
+      slides="7"
+      [loop]="true"
+      [hideArrows]="false"
+      [hideIndicators]="true"
+      [useKeyboard]="true"
+      [useMouseWheel]="false"
+      orientation="ltr">
+      <mat-carousel-slide
+        #matCarouselSlide
+        *ngFor="let slide of slides; let i = index"
+        [image]="slide.image"
+        overlayColor="#00000040"
+        [hideOverlay]="true"
+      ></mat-carousel-slide>
+    </mat-carousel>
+  </div>
+  <div class="botnav">
+      <p>Crée par Julien Salies</p>
+  </div>
 </div>
