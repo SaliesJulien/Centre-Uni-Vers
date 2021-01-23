@@ -163,6 +163,14 @@
                 align-items: center;
                 color: white;
             }
+            a {
+              img {
+                width: 20px;
+                margin-left: 10px;
+                display: flex;
+                margin-top: 5px;
+              }
+            }
         }
     }
 }
