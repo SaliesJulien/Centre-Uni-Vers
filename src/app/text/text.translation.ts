@@ -42,8 +42,8 @@ export const doctors = {
         Nutrithérapie'
     },
     doctor4: {
-        title: 'Caroline Gazeau',
-        desc: 'Reflexologue plantaire'
+        title: 'Richard Puszczewicz',
+        desc: 'Ostéopathe DO'
     },
     doctor5: {
         title: 'Imma Gutierrez Martinez',

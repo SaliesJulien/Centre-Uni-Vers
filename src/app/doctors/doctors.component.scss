@@ -70,6 +70,13 @@
                             flex-grow: 1;
                             height: 120px;
                         }
+                        .richard-picture {
+                            object-fit: contain;
+                            flex-grow: 1;
+                            height: 120px;
+                            width: 200px;
+
+                        }
                     }
                     .desc {
                         display: flex;
